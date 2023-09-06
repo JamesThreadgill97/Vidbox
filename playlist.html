@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <title>Responsive Navbar</title>
+</head>
+<body>
+
+
+<nav class="navbar bg-body-tertiary navbar-collapse  sticky-top  bg-dark border-bottom border-body" data-bs-theme="dark"">
+    <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+      <a class="navbar-brand " href="VidBox.html">
+        <img src="vidbox (4).png" alt="Bootstrap" height="50px">
+      </a>
+      <div class="row">
+        <ul class="navbar-nav justify-content-end navbar-expand">
+          <div class="col">
+        <li class="nav-item">
+            <a class="nav-link" href="index.html"><i class="material-icons">notifications</i></a>
+        </li>
+      </div>
+      <div class="col">
+        <li class="nav-item">
+            <a class="nav-link" href="index.html"><i class="material-icons">person</i></a>
+        </li>
+      </div>
+        </ul>
+      </div>
+    </div>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="history.html">History</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="topics.html">Topics</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="subscriptions.html">Subscriptions</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="playlist.html"><i class="material-icons">playlist_play</i>Playlists</a>
+          </li>
+            <li class="nav-item">
+                <a class="nav-link" href="wildcard.html">Wildcard</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="settings.html"><i class="material-icons">settings</i>Settings</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="help.html"><i class="material-icons">help</i>Help</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="contact.html"><i class="material-icons">contact_support</i>Contact Us</a>
+            </li>
+        </ul>
+    </div>
+  </nav>
+</div>
+<div class="container">
+    <div class="row grow-1">
+            <iframe id="myplayer" width="100%" height="640px" src="https://www.youtube.com/embed/UAvZpLaW7mA?si=kolXqiEGgWjgOIwW&enablejsapi=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen ></iframe>
+    </div>
+    <div class="row">
+        <h1 class="text-center">Video Title</h1>
+        <p class="text-center">This is the video description
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam non porta turpis. Mauris dictum venenatis mi, vitae auctor eros volutpat ut. Phasellus lacinia neque eu odio efficitur, eget aliquam mi pretium. Integer venenatis rhoncus faucibus. Quisque nec arcu sapien. Suspendisse porttitor est accumsan, faucibus ligula in, posuere nisi. Nunc lectus nunc, luctus ut sollicitudin ut, pellentesque non odio. In egestas augue nisl, quis scelerisque est gravida nec. Ut ac leo non risus eleifend eleifend ac eu mauris. Praesent egestas tincidunt magna, eu luctus ante accumsan ut. Interdum et malesuada fames ac ante ipsum primis in faucibus.
+
+Sed eget felis vitae nibh dignissim tincidunt. Praesent at leo venenatis, imperdiet lorem eu, suscipit justo. Proin elit tellus, mollis vitae finibus ultricies, volutpat ac felis. Phasellus et mauris euismod, luctus dolor a, ultrices massa. Vivamus lectus dolor, facilisis a ultricies at, pharetra sed urna. Donec feugiat felis fringilla nisl hendrerit, eget imperdiet mi ullamcorper. Sed dapibus elit at ante viverra, sit amet scelerisque velit fringilla. Nullam mattis id elit et tincidunt. Nam ornare tristique mauris eget laoreet. Nunc metus lectus, vestibulum ut nulla ut, euismod malesuada magna. Curabitur et pulvinar nisl, ut porttitor lectus.
+        </p>
+    </div>
+    <div class="row h-100">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?si=s1cUNWtmsIUVfj0u&amp;list=PLl578ZPbYIlFcSxuka8Km37VgbUYUWI5p" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+<script>
+    var tag = document.createElement('script');
+    tag.src = "https://www.youtube.com/iframe_api";
+    var firstScriptTag = document.getElementsByTagName('script')[0];
+    firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+  
+    var player;
+    function onYouTubeIframeAPIReady() {
+      player = new YT.Player('myplayer', {
+        events: {
+          'onStateChange': onPlayerStateChange
+        }
+      });
+    }
+  
+    function onPlayerStateChange(event) {
+      if (event.data == YT.PlayerState.PLAYING) {
+        $(".div_popup_overlay").fadeIn();
+      }
+      else if (event.data == YT.PlayerState.PAUSED || event.data == YT.PlayerState.ENDED) {
+        $(".div_popup_overlay").fadeOut();
+      }
+    }
+  </script>
+</body>
+</html>
