@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html lang = "en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>VidBox</title>
+        <meta name="description" content="the-best-video-streaming-site">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel = "stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+        <link rel = "stylesheet" href = "CSSVidBox.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    </head>
+
+    <nav class="navbar navbar-dark bg-dark sticky-top">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class = "navbar-brand mx-auto" href = "#">
+            <img class="d-inline-block align-text-top" src = "./Images/vidbox.png" width =  "auto" height = "45" style = "cursor: pointer; position: relative; right: -300px"/>
+            </div>
+
+            <div class="search-container mx-auto" style = "position: relative; right: 300px; top:0px">
+                <form action="/search" method="get">
+                  <input class="search expandright" id="searchright" type="search" name="q" placeholder="Search">
+                  <label class="button searchbutton" for="searchright"><span class="mglass">&#9906;</span></label>
+                </form>
+            </div>
+            
+                <i class = "material-icons ikon" style = "color: white; position: relative; top: 5px; right: 20px; cursor: pointer" onmouseover="this.style.color = 'lightgreen';" onmouseout="this.style.color = 'white'"><span class="material-symbols-outlined">
+                    notifications
+                    </span></i>
+            
+            <i class = "material-icons ikon" style = "color: white; position: relative; top: 5px; right: 10px; cursor: pointer" onmouseover="this.style.color = 'lightgreen';" onmouseout="this.style.color = 'white'"><span class="material-symbols-outlined">
+                person
+                </span></i>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#" style = "color: white">
+                    <i class = "material-icons" style = "color: white; position: relative; top: 5px; right: 2px"><span class="material-symbols-outlined">
+                    home
+                    </span></i>Home</a>
+                </li>
+
+                <li class="nav-item">
+                <a class="nav-link" href="VidBox.html" style = "color: white">
+                    <i class = "material-icons" style = "color: white; position: relative; top: 5px; right: 2px"><span class="material-symbols-outlined">
+                        history
+                        </span></i>History</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="VidBox.html" style = "color: white">
+                        <i class = "material-icons" style = "color: white; position: relative; top: 5px; right: 2px"><span class="material-symbols-outlined">
+                            data_thresholding
+                            </span></i>Topics</a>
+                    </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="VidBox.html" style = "color: white">
+                        <i class = "material-icons" style = "color: white; position: relative; top: 5px; right: 2px"><span class="material-symbols-outlined">
+                            bookmark
+                            </span></i>Subscriptions</a>
+                    </li>
+                <li class = "nav-item">
+                    <a class = "nav-link" href = "index.html" style = "color: white">
+                        <i class = "material-icons" style = "color: white; position: relative; top: 5px; right: 2px"><span class="material-symbols-outlined">
+                            playlist_play
+                            </span></i>Playlists</a>
+                    </a>
+                </li>
+                
+                <li class="nav-item">
+                    <a class="nav-link" href="VidBox.html" style = "color: white">
+                        <i class = "material-icons" style = "color: white; position: relative; top: 5px; right: 2px"><span class="material-symbols-outlined">
+                            shuffle
+                            </span></i>Wildcard</a>
+                </li>
+
+                </div>
+        </div>
+        </nav>
+
+
+          <div class = "container-fluid mx-auto">
+            <div class = "scrolling-wrapper-flexbox-big">
+                <div id = "videobox_scroll" style = "color: black;">
+                    <img class = "init topic-box" src="./Images/eternals_thumb.png" alt="...">
+                </div>
+                <div id = "videobox_scroll" style = "color: black;">
+                    <img class = "init topic-box" src="./Images/atsv_thumb.png" alt="...">
+                </div>
+                <div id = "videobox_scroll" style = "color: black;">
+                    <img class = "init topic-box" src="./Images/bg3.png" alt="...">
+                </div>
+                <div id = "videobox_scroll" style = "color: black;">
+                    <img class = "init topic-box" src="./Images/haikyuu_thumb.png" alt="...">
+                </div>
+                <div id = "videobox_scroll" style = "color: black;">
+                    <img class = "init topic-box" src="./Images/Untitled-design-31-800x445.png" alt="...">
+                </div>
+                <div id = "videobox_scroll" style = "color: black;">
+                    <img class = "init topic-box" src="./Images/341369.jpg" alt="...">
+                </div>
+                <div id = "videobox_scroll" style = "color: black;">
+                    <img class = "init topic-box" src="./Images/Untitled.jpg" alt="...">
+                </div>
+            </div>
+          </div>
+          
+          
+          <div class="scrolling-wrapper-flexbox mx-auto" style = "position: relative; top: 20px">
+            <div class="circle"><h2>
+                <img class = sub-circle src="./Images/AlexyMeyers.jpg" alt="...">
+            </h2></div>
+            <div class="circle"><h2>
+                <img class = sub-circle src="./Images/AlphaRad.jpg" alt="...">
+            </h2></div>
+            <div class="circle"><h2>                
+                <img class = sub-circle src="./Images/AnnaRudolf.jpg" alt="...">
+            </h2></div>           
+            <div class="circle"><h2>            
+                <img class = sub-circle src="./Images/BenCanada.jpg" alt="...">
+            </h2></div>     
+            <div class="circle"><h2>        
+                <img class = sub-circle src="./Images/CaptainKidd.jpg" alt="...">
+            </h2></div>             
+            <div class="circle"><h2>
+                <img class = sub-circle src="./Images/CarlyBae.jpg" alt="...">
+            </h2></div>   
+            <div class="circle"><h2>    
+                <img class = sub-circle src="./Images/CGP.jpg" alt="...">
+            </h2></div>   
+            <div class="circle"><h2>    
+                <img class = sub-circle src="./Images/CMK.jpg" alt="...">
+            </h2></div>   
+            <div class="circle"><h2>    
+                <img class = sub-circle src="./Images/CriticalRole.jpg" alt="...">
+            </h2></div>   
+            <div class="circle"><h2>    
+                <img class = sub-circle src="./Images/DoctorWho.jpg" alt="...">
+            </h2></div>   
+            <div class="circle"><h2>    
+                <img class = sub-circle src="./Images/ElsaCharretrier.jpg" alt="...">
+            </h2></div>   
+            <div class="circle"><h2>    
+                <img class = sub-circle src="./Images/Emirichu.jpg" alt="...">
+            </h2></div>   
+            <div class="circle"><h2>    
+                <img class = sub-circle src="./Images/Escapist.jpg" alt="...">
+            </h2></div>   
+            <div class="circle"><h2>    
+                <img class = sub-circle src="./Images/Everlong.jpg" alt="...">
+            </h2></div>   
+            <div class="circle"><h2>    
+                <img class = sub-circle src="./Images/FlygonHG.jpg" alt="...">
+            </h2></div>   
+            <div class="circle"><h2>    
+                <img class = sub-circle src="./Images/GabiBelle.jpg" alt="...">
+            </h2></div>   
+            <div class="circle"><h2>    
+                <img class = sub-circle src="./Images/GameTheroy.jpg" alt="...">
+            </h2></div>   
+            <div class="circle"><h2>    
+                <img class = sub-circle src="./Images/InternetHistorian.jpg" alt="...">
+            </h2></div>   
+            <div class="circle"><h2>    
+                <img class = sub-circle src="./Images/Jaiden.jpg" alt="...">
+            </h2></div>   
+            <div class="circle"><h2>    
+                <img class = sub-circle src="./Images/JaidenAnim.jpg" alt="...">
+            </h2></div>   
+            <div class="circle"><h2>    
+                <img class = sub-circle src="./Images/JSS.jpg" alt="...">
+            </h2></div>   
+            <div class="circle"><h2>    
+                <img class = sub-circle src="./Images/MrSunday.jpg" alt="...">
+            </h2></div>   
+            <div class="circle"><h2>    
+                <img class = sub-circle src="./Images/NDG.jpg" alt="...">
+            </h2></div>   
+            <div class="circle"><h2>    
+                <img class = sub-circle src="./Images/PChal.jpg" alt="...">
+            </h2></div>   
+            <div class="circle"><h2>    
+                <img class = sub-circle src="./Images/PeterCrowley.jpg" alt="...">
+            </h2></div>   
+            <div class="circle"><h2>    
+                <img class = sub-circle src="./Images/Pokemon.jpg" alt="...">
+            </h2></div>   
+            <div class="circle"><h2>    
+                <img class = sub-circle src="./Images/RTGame.jpg" alt="...">
+            </h2></div>   
+            <div class="circle"><h2>    
+                <img class = sub-circle src="./Images/RubberRoss.jpg" alt="...">
+            </h2></div>   
+            <div class="circle"><h2>    
+                <img class = sub-circle src="./Images/SaltyDK.jpg" alt="...">
+            </h2></div>   
+            <div class="circle"><h2>    
+                <img class = sub-circle src="./Images/Schaffrilas.jpg" alt="...">
+            </h2></div>   
+            <div class="circle"><h2>    
+                <img class = sub-circle src="./Images/Stuckmann.jpg" alt="...">
+            </h2></div>   
+            <div class="circle"><h2>    
+                <img class = sub-circle src="./Images/Sultan.jpg" alt="...">
+            </h2></div>   
+            <div class="circle"><h2>    
+                <img class = sub-circle  src="./Images/TheWeeklyPlanet.jpg" alt="...">
+            </h2></div>   
+            <div class="circle"><h2>    
+                <img class = sub-circle  src="./Images/Yahtzee.jpg" alt="...">
+            </h2></div>   
+            <div class="circle"><h2>    
+                <img class = sub-circle  src="./Images/Zanny.jpg" alt="...">
+            </h2></div>  
+
+
+
+ 
+          </div>
+
+          
+
+          <div class = "container-fluid mx-auto" style = "display: flex; flex-direction: row">
+            <div class = "row">
+                <div class = "col">
+                    <div class = "box">Hello</div>
+                </div>
+                <div class = "col">
+                    
+                </div>
+                <div class = "col">
+                    
+                </div>
+            </div>
+        </div>
+
+        
+         
+
+        <div style="display: flex; flex-direction: row; justify-content: space-evenly; position: relative; top: 30px">
+            <div style = "color: black; position: relative; left: -52px">Previously Watched</div>
+            <div style = "color: black; position: relative; left: -20px">Recent Subscription</div>
+            <div style = "color: black; position: relative; top: -10px; left: -20">Wildcard
+                <i class = "material-icons" style = "color: black; position: relative; top: 8px; border-radius: 8px" onmouseover="this.style.background = 'gray';" onmouseout="this.style.background = 'transparent'"><span class="material-symbols-outlined">
+                shuffle
+                </span></i></div>
+        </div>
+        
+        <div style="display: flex; flex-direction: row; justify-content: space-evenly; position: relative; top: 30px">
+            <div id = "videobox" onmouseover="this.style.background = 'gray';" onmouseout="this.style.background = 'blue'">Previously Watched</div>
+        <div id = "videobox" onmouseover="this.style.background = 'gray';" onmouseout="this.style.background = 'blue'">Recent Subscription</div>
+        <div id = "videobox" onmouseover="this.style.background = 'gray';" onmouseout="this.style.background = 'blue'">Wildcard</div>
+
+
+        </div>
+        
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+
+    </body>
+</html>
